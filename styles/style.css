@@ -76,7 +76,6 @@ ol {
   width: 711px;
   height: 386px;
   margin-bottom: 18px;
-  object-fit: contain;
 }
 
 .result__video {
@@ -185,6 +184,7 @@ ol {
 
 .content__list-container {
   display: flex;
+  position: relative;
   flex-direction: column;
   gap: 30px;
   margin-top: 20px;
